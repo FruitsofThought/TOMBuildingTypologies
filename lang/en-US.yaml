@@ -1,0 +1,9 @@
+locale: en
+phrases:
+    scenes:
+        TOMBuildingTypologies:
+            name: Building Typologies
+            group: Urban
+            description: >
+                This map shows shows different types of buildings and the main
+                roads interconnecting them.

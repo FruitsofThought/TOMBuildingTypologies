@@ -1,0 +1,8 @@
+locale: nl
+phrases:
+    scenes:
+        TOMBuildingTypologies:
+            name: Gebouw Typologieën
+            group: Planologie
+            description: >
+                Deze kaart groepeert verschillende soorten gebouwen en de hoofdwegen
