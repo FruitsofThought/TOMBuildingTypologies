@@ -7,3 +7,5 @@ phrases:
             description: >
                 This map shows shows different types of buildings and the main
                 roads interconnecting them.
+                Big buildings are starting to appear from zoomlevel 13, all buildings
+                show from zoomlevel 15 and up.

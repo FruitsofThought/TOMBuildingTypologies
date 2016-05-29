@@ -1,0 +1,47 @@
+---
+locationsList:
+    -
+        title: Dar Es Salaam
+        lat: -6.8090
+        lon: 39.2806
+        zoom: 13
+    -
+        title: Ngambo
+        lat: -6.1653329612873105
+        lon: 39.19835239648819
+        zoom: 15
+    -
+        title: Amsterdam
+        lat: 52.3697
+        lon: 4.9044
+        zoom: 14
+    -
+        title: Maastricht
+        lat: 50.8461
+        lon: 5.6945
+        zoom: 14
+    -
+        title: Utrecht
+        lat: 52.0882
+        lon: 5.1233
+        zoom: 14
+    -
+        title: Rotterdam
+        lat: 51.9149
+        lon: 4.4754
+        zoom: 14
+    -
+        title: Den Haag
+        lat: 52.0840
+        lon: 4.3210
+        zoom: 13
+    -
+        title: Groningen
+        lat: 53.2185
+        lon: 6.5662
+        zoom: 14
+    -
+        title: Enschede
+        lat: 52.2192
+        lon: 6.8923
+        zoom: 14

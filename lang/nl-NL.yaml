@@ -5,4 +5,6 @@ phrases:
             name: Gebouw Typologieën
             group: Planologie
             description: >
-                Deze kaart groepeert verschillende soorten gebouwen en de hoofdwegen
+                Deze kaart groepeert verschillende soorten gebouwen en de hoofdwegen.
+                Grote gebouwen worden zichtbaar vanaf zoomlevel 13, alle gebouwen zijn zichtbaar
+                vanaf zoomlevel 15.
