@@ -1,6 +1,5 @@
-﻿scene:
-    background:
-        color: '#353535'
+import:
+  - ../TOMBaseStyles/TOMDark.yaml
 
 cameras:
     perspective:
