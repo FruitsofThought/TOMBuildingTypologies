@@ -1,69 +1,8 @@
 import:
-  - ../TOMBaseStyles/TOMDark.yaml
-
-cameras:
-    perspective:
-        type: perspective
-        vanishing_point: [0, -500]
-
-lights:
-    light1:
-        type: directional
-        direction: [.1, .5, -1]
-        diffuse: .7
-        ambient: .5
-
-textures:
-    icons:
-        url: images/wikipedia.png
-        filtering: mipmap
-        sprites:
-            # define sprites: [x origin, y origin, width, height]
-            wikipedia: [0, 0, 16, 16]
-
-
-styles:
-    buildings:
-        base: polygons
-        shaders:
-            blocks:
-                color: |
-                    color.rgb *= vec3(min((worldPosition().z*.001 + .5),1.));
-    ui-icons-overlay:
-        base: points
-        texture: icons
-        interactive: true
-        blend: overlay
-        blend_order: 3
-
-sources:
-    mapzen:
-        type: TopoJSON
-        #url:  http://tiles.mountbatten.nl/all/{z}/{x}/{y}.topojson
-        url: //vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson?api_key=vector-tiles-KXs7X8B
+  - ../TOMBaseStyles/TOMSourceProd.yaml?a=1
+  - ../TOMBaseStyles/TOMLight.yaml
 
 layers:
-    earth:
-        data: { source: mapzen }
-        draw:
-            polygons:
-                order: 0
-                color: white
-
-    water:
-        data: { source: mapzen }
-        draw:
-            polygons:
-                order: 2
-                color: '#353535'
-
-    landuse:
-        data: { source: mapzen }
-        draw:
-            polygons:
-                order: 1
-                color: white
-
     roads:
         data: { source: mapzen }
         filter: { not: { kind: ferry } }
@@ -154,7 +93,7 @@ layers:
                     color: black
                     size: .01
                 polygons:
-                    color: purple
+                    color: green
         commercial:
             filter:
                 kind: [shop,retail,manufacture,bank,factory,store,henhouse,industrial,commercial,hotel,office,storage_tank]
@@ -163,7 +102,7 @@ layers:
                     color: black
                     size: .01
                 polygons:
-                    color: black
+                    color: magenta
         draw:
             polygons:
                 order: 50

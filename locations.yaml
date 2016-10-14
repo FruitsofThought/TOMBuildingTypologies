@@ -2,9 +2,9 @@
 locationsList:
     -
         title: Dar Es Salaam
-        lat: -6.8090
-        lon: 39.2806
-        zoom: 13
+        lat: -6.8243
+        lon: 39.2640
+        zoom: 14
     -
         title: Ngambo
         lat: -6.1653329612873105

@@ -1,0 +1,14 @@
+items:
+    -
+      title: Public
+      color: "blue"
+    -
+      title: Residential
+      color: "yellow"
+    -
+      title: Commercial
+      color: "magenta"
+    -
+      title: Main Roads
+      color: "red"
+      css: "background-color:red;height:5px"
