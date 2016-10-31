@@ -107,7 +107,7 @@ layers:
                     color: magenta
         industrial:
             filter:
-                kind_detail: [manufacture,factory,store,henhouse,industrial,storage_tank]
+                kind_detail: [manufacture,factory,store,henhouse,industrial,storage_tank,warehouse]
             draw:
                 lines:
                     color: black
