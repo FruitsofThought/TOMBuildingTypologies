@@ -1,14 +1,22 @@
 items:
     -
-      title: Public
-      color: "blue"
-    -
       title: Residential
+      description: Buildings where people live
       color: "yellow"
     -
+      title: Public
+      description: Buildings with a public or government function
+      color: "blue"
+    -
       title: Commercial
+      description: Commercial buildings
       color: "magenta"
     -
+      title: Industrial
+      description: Buildings with industrial purpose
+      color: '#800080'
+    -
       title: Main Roads
+      description: Main transport arteries
       color: "red"
-      css: "background-color:red;height:5px"
+      css: "background-color:red;height:5px;line"
