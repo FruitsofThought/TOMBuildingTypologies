@@ -11,6 +11,26 @@ locationsList:
         lon: 39.19835239648819
         zoom: 15
     -
+        title: Los Angeles
+        lat: 34.0412
+        lon: -118.2334
+        zoom: 13
+    -
+        title: Jersey City
+        lat: 40.7184
+        lon: -74.0735
+        zoom: 14
+    -
+        title: Moscow
+        lat: 55.7527
+        lon: 37.6260
+        zoom: 13
+    -
+        title: Tokyo
+        lat: 35.6574
+        lon: 139.7565
+        zoom: 13
+    -
         title: Amsterdam
         lat: 52.3697
         lon: 4.9044
