@@ -5,7 +5,11 @@ import:
 layers:
     roads:
         data: { source: mapzen }
-        filter: { not: { kind: ferry } }
+        filter:
+          $zoom:
+              min: 1
+              max: 25
+          not: { kind: ferry }
         draw:
             lines:
                 order: 2
@@ -14,26 +18,30 @@ layers:
 
         primaryroads:
             filter:
-                highway: primary
+                kind: [highway]
+                not:
+                    kind_detail: [trunk,motorway_link,trunk_link]
+                $zoom:
+                    max: 25
             draw:
                 lines:
                     order: 3
                     color: red
-                    width: 10
+                    width: 20
         highways:
             filter:
-                highway: [motorway, trunk]
+#                kind: [major_road]
+                kind_detail: primary
+                not:
+                    kind: highway
+                $zoom:
+                    min: 13
+                    max: 25
             draw:
                 lines:
                     order: 5
                     color: red
-                    width: 40
-        trunk:
-            filter:
-                highway: trunk
-            draw:
-                lines:
-                    width: 30
+                    width: 10
         labels:
             filter:
                 name: true
